@@ -1,42 +1,42 @@
 # Finora
 
-A responsive personal-finance dashboard focused on clarity, data storytelling and meaningful interaction.
+Um painel responsivo de finanças pessoais focado em clareza, visualização de dados e interações úteis.
 
-## Features
+## Funcionalidades
 
-- Interactive balance chart with three time ranges
-- Real-time balance updates from new transactions
-- Income and expense tracking
-- Spending breakdown and monthly budget progress
-- Responsive dashboard for desktop, tablet and mobile
-- Accessible transaction form and status feedback
+- Gráfico interativo de saldo com três períodos
+- Atualização do saldo ao adicionar transações
+- Acompanhamento de receitas e despesas
+- Distribuição de gastos e progresso do orçamento mensal
+- Painel responsivo para computador, tablet e celular
+- Formulário acessível com confirmação de estado
 
-## Stack
+## Tecnologias
 
 - React 19
 - TypeScript
 - Next.js / Vinext
 - Tailwind CSS 4
-- Cloudflare-compatible server output
+- Saída de servidor compatível com Cloudflare
 
-## Run locally
+## Executar localmente
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Quality checks
+## Verificações de qualidade
 
 ```bash
 npm run lint
 npm test
 ```
 
-## Engineering notes
+## Decisões de engenharia
 
-Finora intentionally uses native React state and CSS/SVG visualization rather than a charting package. This keeps the bundle focused while demonstrating data transformation, derived state, controlled forms and responsive information design.
+O Finora utiliza estado nativo do React e visualizações em CSS/SVG em vez de uma biblioteca de gráficos. Isso mantém o pacote enxuto e demonstra transformação de dados, estado derivado, formulários controlados e design responsivo de informações.
 
-## Author
+## Autor
 
-Built by Joseph as a full-stack-ready frontend portfolio project.
+Desenvolvido por Joseph como um projeto de portfólio frontend preparado para evoluir para uma aplicação full stack.
