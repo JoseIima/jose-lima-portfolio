@@ -1,44 +1,44 @@
 # Pulseboard
 
-An interactive project-management dashboard built as a portfolio project. Pulseboard combines a polished responsive UI with practical task workflows.
+Um painel interativo de gestão de projetos criado para portfólio. O Pulseboard combina uma interface responsiva e bem-acabada com fluxos práticos de tarefas.
 
-## Highlights
+## Destaques
 
-- Search across task titles, tags and owners
-- Move work through a four-stage Kanban flow
-- Live project metrics derived from board state
-- Responsive layouts for desktop, tablet and mobile
-- Keyboard-friendly controls and accessible labels
-- Zero external UI dependencies
+- Busca por títulos, etiquetas e responsáveis
+- Movimentação de tarefas em um fluxo Kanban de quatro etapas
+- Métricas atualizadas a partir do estado do quadro
+- Layout responsivo para computador, tablet e celular
+- Controles acessíveis e compatíveis com teclado
+- Nenhuma dependência externa de interface
 
-## Stack
+## Tecnologias
 
 - React 19
 - TypeScript
 - Next.js / Vinext
 - Tailwind CSS 4
-- Cloudflare-compatible server output
+- Saída de servidor compatível com Cloudflare
 
-## Run locally
+## Executar localmente
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open the local URL printed in your terminal.
+Abra o endereço local exibido no terminal.
 
-## Quality checks
+## Verificações de qualidade
 
 ```bash
 npm run lint
 npm test
 ```
 
-## Product decisions
+## Decisões de produto
 
-The interface uses progressive disclosure to keep a dense project view readable. Task movement is intentionally one click, project metrics update from the same state, and horizontal scrolling preserves usable Kanban columns on smaller screens.
+A interface utiliza divulgação progressiva para manter uma visão densa de projeto fácil de ler. As tarefas avançam com um clique, as métricas são atualizadas a partir do mesmo estado e a rolagem horizontal preserva as colunas Kanban em telas menores.
 
-## Author
+## Autor
 
-Built by Joseph as a demonstration of frontend engineering, product thinking and attention to interaction design.
+Desenvolvido por Joseph como demonstração de engenharia frontend, visão de produto e atenção ao design de interação.
