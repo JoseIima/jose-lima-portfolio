@@ -1,37 +1,37 @@
-# Joseph Lima — Web Development Portfolio
+# Joseph Lima — Portfólio de Desenvolvimento Web
 
-A curated collection of production-ready web applications built with React and TypeScript.
+Uma seleção de aplicações web completas, desenvolvidas com React e TypeScript e prontas para demonstração.
 
-## Featured projects
+## Projetos em destaque
 
 ### [Pulseboard](./pulseboard)
 
-A responsive project-management dashboard with task search, live metrics and an interactive Kanban workflow.
+Painel responsivo de gestão de projetos com busca de tarefas, métricas atualizadas e um fluxo Kanban interativo.
 
-- **Live demo:** https://pulseboard-joseph.smoky-poppy-1619.chatgpt.site
-- **Highlights:** derived state, filtering, task workflows, responsive UI and accessibility
-- **Stack:** React 19, TypeScript, Next.js/Vinext, Tailwind CSS
+- **Demonstração:** https://pulseboard-joseph.smoky-poppy-1619.chatgpt.site
+- **Destaques:** estado derivado, filtros, fluxo de tarefas, responsividade e acessibilidade
+- **Tecnologias:** React 19, TypeScript, Next.js/Vinext e Tailwind CSS
 
 ### [Finora](./finora)
 
-A personal-finance dashboard with data visualization, period filters, budget tracking and transaction creation.
+Painel de finanças pessoais com visualização de dados, filtros por período, controle de orçamento e cadastro de transações.
 
-- **Live demo:** https://finora-joseph.smoky-poppy-1619.chatgpt.site
-- **Highlights:** controlled forms, derived totals, SVG charts, responsive information design
-- **Stack:** React 19, TypeScript, Next.js/Vinext, Tailwind CSS
+- **Demonstração:** https://finora-joseph.smoky-poppy-1619.chatgpt.site
+- **Destaques:** formulários controlados, totais derivados, gráficos SVG e design responsivo
+- **Tecnologias:** React 19, TypeScript, Next.js/Vinext e Tailwind CSS
 
-## What this portfolio demonstrates
+## O que este portfólio demonstra
 
-- Component architecture and typed React state
-- Responsive, accessible interface design
-- Data visualization without heavy dependencies
-- Product thinking and realistic interaction flows
-- Production builds targeting a Cloudflare-compatible runtime
+- Arquitetura de componentes e estado tipado no React
+- Interfaces responsivas e acessíveis
+- Visualização de dados sem dependências pesadas
+- Visão de produto e fluxos de interação realistas
+- Aplicações preparadas para produção
 
-## About me
+## Sobre mim
 
-I'm Joseph, a web developer focused on building clear, useful and polished digital products. I'm currently open to web-development opportunities.
+Sou Joseph, desenvolvedor web focado em criar produtos digitais claros, úteis e bem-acabados. Estou aberto a oportunidades na área de desenvolvimento web.
 
 ---
 
-Each project folder includes setup instructions, engineering notes and quality-check commands.
+Cada pasta contém instruções de execução, decisões técnicas e comandos de verificação.
