@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-export const metadata: Metadata = { title: "Finora — Personal Finance", description: "An interactive personal finance dashboard built with React and TypeScript.", other: { "codex-preview": "development" } };
+export const metadata: Metadata = { title: "Finora — Finanças Pessoais", description: "Painel interativo de finanças pessoais desenvolvido com React e TypeScript.", other: { "codex-preview": "development" } };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) { return <html lang="en"><body>{children}</body></html>; }
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) { return <html lang="pt-BR"><body>{children}</body></html>; }
